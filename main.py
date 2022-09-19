@@ -1,4 +1,4 @@
-from cv2 import cv2
+import cv2
 from fastapi import FastAPI, Request
 import uvicorn
 from pydantic import BaseModel

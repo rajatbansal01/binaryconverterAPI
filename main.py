@@ -34,6 +34,10 @@ async def convertimage(image:image):
     convertBinary(getImage(image.image_url))
     return FileResponse(file_path, media_type="image/jpeg", filename="image.jpg")
 
+
+if __name__ == "__main__":
+    uvicorn.run(app, host='localhost', port=8000)
+
     
     
     

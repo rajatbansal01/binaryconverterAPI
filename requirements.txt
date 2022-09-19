@@ -5,6 +5,6 @@ uvloop
 httptools
 requests
 numpy
-opencv-python
+opencv-python-headless
 pillow
 pydantic

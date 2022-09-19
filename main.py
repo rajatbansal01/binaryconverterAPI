@@ -6,7 +6,7 @@ from PIL import Image
 from io import BytesIO
 import numpy as np
 from fastapi.responses import FileResponse
-import cv2.cv2
+import cv2
 file_path = "image.jpg"
 app = FastAPI()
 
